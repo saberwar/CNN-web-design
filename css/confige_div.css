@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* 配置信息弹窗 */
+/*配置信息框*/
+			.cpnfig_div{
+				width:200px;
+				height:50px;
+				position:absolute;
+				display:none;
+				z-index:2;
+					
+				left:40%;
+				background-color:black;
+				border-radius: 20px;
+				}
+			.cpnfig_div_para{
+				width:500px;
+				height:220px;
+				position:absolute;
+				display:none;
+				z-index:2;
+					border-radius: 20px;
+				left:25%;
+				background-color:black;
+				
+			}
+			#div_config_list{
+				text-align:center;
+				margin:auto 0;
+				
+				}
+			#div_config_list label{
+				color: orange;
+			}
+			#div_config_list input[type=text]{
+				border-radius: 30px;
+	border-color: transparent;
+	background-color: transparent;
+	color: skyblue;
+	border-bottom-color: orange;
+			}
+			/*去除选中颜色*/
+input[type=text]:focus{
+    outline: none;    
+   
+}
+.cpnfig_div button{
+	border-color: transparent;
+		border-radius: 30px;
+		background-color: blueviolet;
+}
+#config_tag_parameters button{
+	border-color: transparent;
+		border-radius: 30px;
+		background-color: blueviolet;
+}
+button:focus{
+	 outline: none; 
+}
+            #btn_data_path{
+            	
+            	border-color: transparent;
+		border-radius: 20px;
+		background-color: darkorchid;
+            	
+            }
+            #btn_parameters{
+            	border-color: transparent;
+		border-radius: 20px;
+		background-color:olivedrab;
+            }
+                #btn_save_path{
+                	
+                	border-color: transparent;
+		border-radius: 20px;
+		background-color:cornflowerblue;
+                }
+            #mode{
+            	background-color: lawngreen;
+            	border-color: transparent;
+            	
+            }

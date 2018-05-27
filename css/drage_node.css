@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* 可拖动节点样式 */
+ .div_btn1{width:150px;
+		 height:40px;
+		 
+		 border-radius: 30px;
+		 position:absolute;
+		 text-align:center;
+		 text-height:30px;
+		 line-height:30px;
+		 font-size:28px;
+		   z-index: 10;
+		 }
+ .div_conn1{
+	 width:40px;
+		 height:40px;
+		 border-radius: 30px;
+		 
+		 position:absolute;
+		 text-align:center;
+		 text-height:30px;
+		 line-height:30px;
+		 font-size:28px;
+	    z-index: 10;
+	 }
+ .div_btn{ width:150px;
+		 height:40px;
+		 /*border-style:dashed;*/
+		
+		 /*border-color: transparent;*/
+		 border-radius: 30px;
+		 text-align:center;
+		 text-height:30px;
+		 line-height:30px;
+		 font-size:28px;
+		 margin:0 auto;
+		 margin-top:30px;
+		 
+		 }
+
+.div_conn{
+	 width:40px;
+		 height:40px;
+		border-radius: 30px;
+		 text-align:center;
+		 text-height:30px;
+		 line-height:30px;
+		 font-size:28px;
+		 margin:0 auto;
+		 margin-top:30px;
+	 
+	 }

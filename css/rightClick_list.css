@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* 右键点击菜单 */
+ #menu {                          /*右键菜单*/
+   position: fixed;
+   left:0;
+   top:0;
+   width:50px;
+   height: 80px;
+   background-color: #EBDCDD;
+   display: none;
+  }

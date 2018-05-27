@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* 侧栏 */
+ /*右侧导航栏*/
+	#guide_right{
+		   width:50px;
+		   height:60px;
+		   position:fixed;
+		    right:0;
+			top:100px;
+		   
+		
+		
+		}
+		.guide_right_button{
+			   width:50px;
+		 height:20px;
+		
+		border-color: transparent;
+		border-radius: 30px;
+			}
+

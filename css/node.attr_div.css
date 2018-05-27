@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* 节点弹出窗口 */
+ #testshow{        /*弹出窗口*/
+		   
+		    display:none;  
+           text-align:center;
+           background-color: black;
+        /*height:30%;*/  
+        width:50%;  
+        position:absolute;/*让节点脱离文档流,我的理解就是,从页面上浮出来,不再按照文档其它内容布局*/  
+        top:40%;/*节点脱离了文档流,如果设置位置需要用top和left,right,bottom定位*/  
+        left:24%;  
+        z-index:15;/*个人理解为层级关系,由于这个节点要在顶部显示,所以这个值比其余节点的都大*/  
+        border-radius: 30px;
+		   
+		   
+		   }
+#testshow button{
+	
+	border-color: transparent;
+		border-radius: 30px;
+		background-color: blueviolet;
+}
+#testshow button:focus{
+	 outline: none; 
+}
+#testshow label{
+	color: orange;
+}
+#testshow input[type=text]{
+	border-radius: 30px;
+	border-color: transparent;
+	background-color: transparent;
+	color: skyblue;
+	border-bottom-color: orange;
+	
+}
+/*去除选中颜色*/
+input[type=text]:focus{
+    outline: none;    
+   
+}
+/*节点悬浮*/
+#boss{
+	margin-top: 20px;;
+	width:150px;
+		 text-align: center;
+	background-color:black; 
+	font-size:10px;
+	z-index: 20;
+	/*设置自动换行*/
+word-break: break-all;
+word-wrap: break-word;
+border-radius: 30px;
+	
+}
+.label-show-attr{
+	color: orange;
+}
+.label-show-attr-value{
+	color: blue;
+}
